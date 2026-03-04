@@ -6,7 +6,9 @@ plugins {
 android {
     namespace = "com.example.examen"
     compileSdk {
-        version = release(33)
+        version = release(36) {
+            minorApiLevel = 1
+        }
     }
 
     defaultConfig {
