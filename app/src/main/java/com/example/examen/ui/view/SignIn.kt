@@ -124,7 +124,7 @@ fun LoginScreen(
             StyledTextField(
                 value = email,
                 onValueChange = { email = it },
-                placeholder = "xyz@gmail.com",
+                placeholder = "your@gmail.com",
                 keyboardType = KeyboardType.Email // Тип клавиатуры для email
             )
 

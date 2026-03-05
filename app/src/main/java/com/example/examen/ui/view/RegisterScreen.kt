@@ -170,7 +170,7 @@ fun RegisterScreen(
             StyledTextField(
                 value = email,
                 onValueChange = { email = it },
-                placeholder = "xyz@gmail.com",
+                placeholder = "your@gmail.com",
                 keyboardType = KeyboardType.Email // Устанавливаем тип клавиатуры для email
             )
 
