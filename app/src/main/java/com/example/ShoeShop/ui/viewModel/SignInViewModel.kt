@@ -53,7 +53,17 @@ class SignInViewModel : ViewModel() {
                          * Сохраняем данные авторизации в глобальный объект UserSession
                          * Эти данные будут доступны во всем приложении
                          *
-                         * Предполагаемая структура ответа:
+                         * Предполагаемая структурСлайд 1: О проекте
+                         *
+                         * ShoeShop — мобильное приложение для интернет-магазина обуви.
+                         *
+                         * Технические характеристики:
+                         * - Платформа: Android (min SDK 33, Android 13+)
+                         * - Архитектура: Clean Architecture (MVVM) с разделением на слои data/ui/domain
+                         * - Бэкенд: Supabase (PostgreSQL, Auth, Storage, RLS)
+                         * - Язык: Kotlin + Jetpack Compose
+                         * - UI: Material Design 3, полностью адаптивная верстка
+                         * - Система контроля версий: Git (ветвление по дням, сохранение истории)а ответа:
                          * {
                          *   "access_token": "eyJhbGciOiJIUzI1NiIs...",
                          *   "user": {
