@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f7c84c1-8fd6-487d-bd41-6033654b82b6" name="Changes" comment="" />
+    <list default="true" id="3f7c84c1-8fd6-487d-bd41-6033654b82b6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Publication/Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Publication/Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ShoeShop/data/service/UserManagementService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ShoeShop/data/service/UserManagementService.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -61,7 +61,7 @@ interface UserManagementService {
     @GET("rest/v1/profiles")
     suspend fun getProfile(
         @Header("Authorization") authHeader: String,
-        @Query("user_id") userIdFilter: String, // "eq.<uuid>"
+        @Query("id") userIdFilter: String,        // <-- ИЗМЕНИ ЗДЕСЬ user_id → id
         @Query("select") select: String = "*"
     ): List<ProfileDto>
 
@@ -69,7 +69,7 @@ interface UserManagementService {
     @PUT("rest/v1/profiles")
     suspend fun updateProfile(
         @Header("Authorization") authHeader: String,
-        @Query("user_id") userIdFilter: String,
+        @Query("id") userIdFilter: String,        // <-- И ЗДЕСЬ user_id → id
         @Body body: Map<String, Any?>
     ): Response<Unit>
 
